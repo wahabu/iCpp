@@ -3,6 +3,7 @@
 Write a program to print "C++ is cool".
 Note that the sentence starts with a capital letter.
 
+### CODE
 ```cpp
 #include<iostream>
 using namespace std;
@@ -15,3 +16,6 @@ int main() {
     return 0;
 }
 ```
+
+### OUTPUT OF THE CODE
+C++ is cool

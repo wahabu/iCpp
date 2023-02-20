@@ -18,7 +18,7 @@ int main() {
     return 0;   
 }
 
-printAge() {
+int printAge() {
     age = 11; // << global scope
     cout << "global age: " << age << endl;
     int age = 13; // << local scope for printAge

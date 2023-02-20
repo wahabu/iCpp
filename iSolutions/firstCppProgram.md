@@ -1,5 +1,7 @@
 # First C++ Program
 
+### PROBLEM
+
 Write a program to print "C++ is cool".
 Note that the sentence starts with a capital letter.
 
@@ -18,4 +20,4 @@ int main() {
 ```
 
 ### OUTPUT OF THE CODE
-C++ is cool
+> C++ is cool

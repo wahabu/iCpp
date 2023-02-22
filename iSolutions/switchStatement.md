@@ -1,12 +1,17 @@
-# Title
+# Switch Statement
 
 ### PROBLEM
 
-text text text
+A coffee vending machine makes 5 __types of coffee:__
 
+1. Latte
+2. Americano
+3. Espresso
+4. Cappuccino
+5. Macchiato
 
 #### Task
-text text text
+Write a program that will take a number from the customer as input and serve the corresponding coffee type.
 
 ### CODE
 ```cpp
@@ -14,14 +19,15 @@ text text text
 using namespace std;
 
 int main() {
-
+    int choice = 0;
+    cin >> choice;
     return 0;
     }
 ```
 
 ### OUTPUT OF THE CODE
 #### Sample SInput
-> <br>
+> 2<br>
 
 #### Sample Output
-> <br>
+> Americano<br>

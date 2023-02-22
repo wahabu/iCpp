@@ -1,12 +1,12 @@
-# Title
+# The If statement
 
 ### PROBLEM
 
-text text text
-
+Admission to the pool is free for children under 7 years of age.
+The given program takes __age__ as an input.
 
 #### Task
-text text text
+Complete the code to output "free" if the child's __age__ is __less__ than 7.
 
 ### CODE
 ```cpp
@@ -14,14 +14,19 @@ text text text
 using namespace std;
 
 int main() {
+    int age;
+    cin >> age;
 
+    if (age < 7) {
+        cout << "free\n";
+    }
     return 0;
     }
 ```
 
 ### OUTPUT OF THE CODE
 #### Sample SInput
-> <br>
+> 6<br>
 
 #### Sample Output
-> <br>
+> free<br>

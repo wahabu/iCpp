@@ -21,4 +21,4 @@ int main() {
 ```
 
 ### OUTPUT OF THE CODE
-> C++ is cool
+> C++ is cool<br>

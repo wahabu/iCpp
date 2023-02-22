@@ -26,5 +26,5 @@ int main() {
 ```
 
 ### OUTPUT OF THE CODE
-> David's aquarium: 11
-> Alex's aquarium: 8
+> David's aquarium: 11<br>
+> Alex's aquarium: 8<br>

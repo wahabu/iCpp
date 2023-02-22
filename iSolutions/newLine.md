@@ -21,6 +21,6 @@ int main() {
 ```
 
 ### OUTPUT OF THE CODE
-> C
-> +
-> +
+> C<br>
+> +<br>
+> +<br>

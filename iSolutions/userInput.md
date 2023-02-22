@@ -24,8 +24,8 @@ int main() {
 ```
 
 ### OUTPUT OF THE CODE
-##### Input
-> 137
+#### Sample SInput
+> 137<br>
 > 53
-##### Output
-> 190
+#### Sample Output
+> 190<br>

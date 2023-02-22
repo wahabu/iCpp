@@ -1,0 +1,43 @@
+# Basic Arithmetic
+
+### PROBLEM
+
+You need to buy paint for the floor of a rectangular room.
+The given program takes the room's length and width as input.
+
+**Task**
+Complete the program to calculate and output the area of the room.
+
+ample SInput
+5.4
+2.3
+
+Sample Output
+12.42
+
+### CODE
+```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+    //side of the room
+    double length;
+    double width;
+    cin >> length;
+    cin >> width;
+
+    //output the area
+    cout << length * width, '\n';
+
+    return 0;
+    }
+```
+
+### OUTPUT OF THE CODE
+#### Sample SInput
+> 5.4<br>
+> 2.3
+
+#### Sample Output
+> 12.42<br>

@@ -3,10 +3,10 @@
 ### PROBLEM
 
 You need to buy paint for the floor of a rectangular room.
-The given program takes the room's length and width as input.
+The given program takes the room's __length__ and __width__ as input.
 
-**Task**
-Complete the program to calculate and output the area of the room.
+#### Task
+Complete the program to calculate and output the __area__ of the room.
 
 ### CODE
 ```cpp

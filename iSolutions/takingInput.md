@@ -2,7 +2,7 @@
 
 ### PROBLEM
 
-Write a program that takes two numbers as input, assigns those values to the provided a and b variables, then outputs their sum. 
+Write a program that takes two numbers as input, assigns those values to the provided __a__ and __b__ variables, then outputs their __sum__. 
 
 ### CODE
 ```cpp

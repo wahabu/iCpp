@@ -4,7 +4,7 @@
 
 David and Alex each have aquariums. There are 8 Rainbowfishes in David’s aquarium, and 11 Angelfishes in Alex’s aquarium. Help them exchange their fishes between them.
 
-Complete the code to swap the values of variables between aquariumDavid and aquariumAlex. 
+Complete the code to __swap the values__ of variables between aquariumDavid and aquariumAlex. 
 
 ### CODE
 ```cpp

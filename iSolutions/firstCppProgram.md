@@ -3,7 +3,7 @@
 ### PROBLEM
 
 Write a program to print "C++ is cool".
-Note that the sentence starts with a capital letter.
+Note that the sentence starts with a __capital letter__.
 
 ### CODE
 ```cpp

@@ -5,7 +5,7 @@
 A robot can type __300 letters per minute__.
 The given program takes the text input __time__ (in minutes).
 
-**Task**
+#### Task
 Complete the code to calculate and output the number of letters that will be typed in a given time. 
 
 ### CODE

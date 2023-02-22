@@ -2,11 +2,11 @@
 
 ### PROBLEM
 
-The given program outputs "C++".
+The given program outputs "__C++__".
 Change the code to output each character on a new line, resulting in:
-C
-+
-+
+__C__<br>
+__+__<br>
+__+__<br>
 
 ### CODE
 ```cpp

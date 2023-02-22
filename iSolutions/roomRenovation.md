@@ -8,13 +8,6 @@ The given program takes the room's length and width as input.
 **Task**
 Complete the program to calculate and output the area of the room.
 
-ample SInput
-5.4
-2.3
-
-Sample Output
-12.42
-
 ### CODE
 ```cpp
 #include<iostream>

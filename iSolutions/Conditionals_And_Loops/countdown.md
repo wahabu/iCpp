@@ -1,33 +1,58 @@
-# While Loop
+# Countdown
 
 ### Task
 
-Create a timer program that will take the number of seconds as input, output the remaining time and coundown to 0.
+We need to make a countdown app.  
+Given a number **N** as input, output numbers from **N** to **1** on separate lines.  
+Also, when the current countdown number is a multiple of 5, the app should output "**Beep**".
 
 ### CODE
 
 ```cpp
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-    int seconds;
-    cin >> seconds;
+    int n;
+    cin >> n;
 
-    while (seconds >= 0) {
-        cout << seconds << endl;
-        seconds--;
+    while (n >= 1) {
+        cout << n << endl;
+
+        if (n % 5 == 0) {
+            cout << "Beep" << endl;
+        }
+
+        n--;
     }
 
     return 0;
-    }
+}
 ```
 
 ### OUTPUT OF THE CODE
 
+#### Sample SInput
+
+> 15
+
 #### Sample Output
 
+> 15  
+> Beep  
+> 14  
+> 13  
+> 12  
+> 11  
+> 10  
+> Beep  
+> 9  
+> 8  
+> 7  
+> 6  
+> 5  
+> Beep  
+> 4  
 > 3  
 > 2  
-> 1  
-> 0
+> 1

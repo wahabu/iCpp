@@ -3,13 +3,19 @@ using namespace std;
 
 int main()
 {
-  int seconds;
-  cin >> seconds;
+  int n;
+  cin >> n;
 
-  while (seconds >= 0)
+  while (n >= 1)
   {
-    cout << seconds << endl;
-    seconds--;
+    cout << n << endl;
+
+    if (n % 5 == 0)
+    {
+      cout << "Beep" << endl;
+    }
+
+    n--;
   }
 
   return 0;

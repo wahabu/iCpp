@@ -9,25 +9,24 @@ Also, when the current countdown number is a multiple of 5, the app should outpu
 ### CODE
 
 ```cpp
-#include <iostream>
-using namespace std;
+int main()
+{
+  int n;
+  cin >> n;
 
-int main() {
-    int n;
-    cin >> n;
+  while (n >= 1)
+  {
+    cout << n << endl;
 
-    while (n >= 1) {
-        cout << n << endl;
+    if (n % 5 == 0)
+    {
+      cout << "Beep" << endl;
 
-        if (n % 5 == 0) {
-            cout << "Beep" << endl;
-        }
-
-        n--;
+      n--;
     }
 
     return 0;
-}
+  }
 ```
 
 ### OUTPUT OF THE CODE

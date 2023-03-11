@@ -13,10 +13,9 @@ int main()
     if (n % 5 == 0)
     {
       cout << "Beep" << endl;
+
+      n--;
     }
 
-    n--;
+    return 0;
   }
-
-  return 0;
-}

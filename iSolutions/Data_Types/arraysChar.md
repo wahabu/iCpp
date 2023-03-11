@@ -4,24 +4,25 @@
 
 text text text
 
-
 #### Task
+
 text text text
 
 ### CODE
+
 ```cpp
-#include<iostream>
-using namespace std;
+int main()
+{
+  char word[] = {'c', 'h', 'a', 'm', 'p', 'i', 'o', 'n', 's', 'h', 'i', 'p'};
+  // your code goes here
+  cout << word[0] << word[4] << word[11] << endl;
 
-int main() {
-
-    return 0;
-    }
+  return 0;
+}
 ```
 
 ### OUTPUT OF THE CODE
-#### Sample SInput
-> <br>
 
 #### Sample Output
-> <br>
+
+> cpp<br>

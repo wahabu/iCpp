@@ -2,11 +2,11 @@
 
 ### PROBLEM
 
-text text text
+Pastry chefs are competing to win the battle of the cakes. For each additional cake made, the number of eggs required increases by 1 (1 egg for the first cake, 2 eggs for the second, etc.).
 
 #### Task
 
-text text text
+Take the number of cakes that must be baked as the input, calculate (recursively) how many eggs were used to bake them by the end of the battle and output the result.
 
 ### CODE
 

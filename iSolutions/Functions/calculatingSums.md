@@ -4,24 +4,34 @@
 
 text text text
 
-
 #### Task
+
 text text text
 
 ### CODE
+
 ```cpp
-#include<iostream>
-using namespace std;
+void add(int x, int y) {
+    cout << x + y << endl;
+}
+//overload it to sum doubles
+void add(double x, double y) {
+    cout << x + y << endl;
+}
 
 int main() {
 
+    //calling
+    add(5,6);
+    add(1.2, 6.5);
+
     return 0;
-    }
+}
 ```
 
 ### OUTPUT OF THE CODE
-#### Sample SInput
-> <br>
 
 #### Sample Output
-> <br>
+
+> 11  
+> 7.7

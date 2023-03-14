@@ -35,8 +35,9 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> 6
 
 #### Sample Output
 
-> <br>
+> Bruce  
+> Mary

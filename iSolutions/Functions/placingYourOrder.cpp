@@ -13,6 +13,6 @@ int main()
   cin >> friendOrder;
 
   printOrder(friendOrder);
-
+  cout << endl;
   return 0;
 }

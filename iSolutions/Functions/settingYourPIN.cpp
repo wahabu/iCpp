@@ -11,6 +11,5 @@ int main()
   {
     cout << (1 + (rand() % range));
   }
-
   return 0;
 }

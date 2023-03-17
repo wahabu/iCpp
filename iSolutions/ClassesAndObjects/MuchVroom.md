@@ -11,13 +11,51 @@ text text text
 ### CODE
 
 ```cpp
-#include<iostream>
-using namespace std;
+// class definition
+class Car
+{
 
-int main() {
+  // private area
+private:
+  int horsepowers;
 
-    return 0;
+  // public area
+public:
+  // complete the setter function
+  void setHorsepowers(int h)
+  {
+    if (h > 800)
+    {
+      cout << "Too much" << endl;
+      horsepowers = h;
     }
+    else
+    {
+      horsepowers = h;
+    }
+  }
+
+  // complete the getter function
+  int getHorsepowers()
+  {
+    return horsepowers;
+  }
+};
+
+int main()
+{
+  // getting input
+  int horsepowers;
+  cin >> horsepowers;
+  // creating the object of class Car
+  Car car;
+  // setting the value for private member
+  car.setHorsepowers(horsepowers);
+  // printing the value of private member
+  cout << car.getHorsepowers();
+
+  return 0;
+}
 ```
 
 ### OUTPUT OF THE CODE

@@ -1,12 +1,8 @@
-# Title
-
-### PROBLEM
-
-text text text
+# Intoduction to functions
 
 #### Task
 
-text text text
+Complete the function in order to print the sentence "Keep learning" and call it from main() function.
 
 ### CODE
 
@@ -26,10 +22,6 @@ int main() {
 
 ### OUTPUT OF THE CODE
 
-#### Sample SInput
-
-> <br>
-
 #### Sample Output
 
-> <br>
+> Keep learning!<br>

@@ -1,12 +1,14 @@
-# Title
+# Function with multiple parameter
 
 ### PROBLEM
 
-text text text
+While playing a board game, you and your friend roll the dice and the person who rolled the higher number moves forward.
 
 #### Task
 
-text text text
+Write a function that takes two numbers as arguments and returns the higher number of the two.  
+Print the result.  
+If numbers are equal function must return that number.
 
 ### CODE
 
@@ -38,8 +40,9 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> 1<br>
+> 6<br>
 
 #### Sample Output
 
-> <br>
+> 6<br>

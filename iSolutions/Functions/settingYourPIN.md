@@ -1,12 +1,12 @@
-# Title
+# The rand() function
 
 ### PROBLEM
 
-text text text
+You must set a PIN for your suitcase that contains 4 digits in the range of 0 to N.
 
 #### Task
 
-text text text
+Write a program to take the N number as input, generate 4 random numbers from the range and print them sequentially, without spaces.
 
 ### CODE
 
@@ -28,8 +28,8 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> 9<br>
 
 #### Sample Output
 
-> <br>
+> 2818<br>

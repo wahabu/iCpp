@@ -1,12 +1,12 @@
-# Title
+# Function parameters
 
 ### PROBLEM
 
-text text text
+You are building an Hours to Minutes converter.
 
 #### Task
 
-text text text
+Complete the given function so that it will take from user the count of hours as an argument, convert them into minutes, and output.
 
 ### CODE
 
@@ -30,8 +30,8 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> 5<br>
 
 #### Sample Output
 
-> <br>
+> 300<br>

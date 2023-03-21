@@ -1,12 +1,12 @@
-# Title
+# Constructors
 
 ### PROBLEM
 
-text text text
+The given program defines a Painting class and creates an object using the constructor.
 
 #### Task
 
-text text text
+Fix the code so that the constructor takes the name as the argument and outputs it.
 
 ### CODE
 
@@ -24,8 +24,8 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> Ocean<br>
 
 #### Sample Output
 
-> <br>
+> Ocean<br>

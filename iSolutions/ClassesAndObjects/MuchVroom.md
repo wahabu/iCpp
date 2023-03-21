@@ -1,12 +1,13 @@
-# Title
+# Example of Encapsulation
 
 ### PROBLEM
 
-text text text
+You are a supercar engineer and currently setting the engine's horsepower.
+Complete the given program by completing methods to set and get the horsepower of the car object in order to output it.
 
 #### Task
 
-text text text
+The program should warn "Too much" if the inputted horsepower is above 800.
 
 ### CODE
 
@@ -62,8 +63,9 @@ int main()
 
 #### Sample SInput
 
-> <br>
+> 950<br>
 
 #### Sample Output
 
-> <br>
+> Too much<br>
+> 950<br>

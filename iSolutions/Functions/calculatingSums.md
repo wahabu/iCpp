@@ -1,12 +1,9 @@
-# Title
-
-### PROBLEM
-
-text text text
+# Function overloading
 
 #### Task
 
-text text text
+Complete the add() function so that it will calculate the sum of two numbers given as arguments.
+Overload it in order to do the same operation with double type values.
 
 ### CODE
 

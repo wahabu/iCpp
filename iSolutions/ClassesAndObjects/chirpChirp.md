@@ -1,6 +1,6 @@
-# Title
+# Example of a class
 
-### PROBLEM
+### Task
 
 Complete the given program. Define a class Bird which has one public method called makeSound(). That prints "chirp-chirp" when called.
 

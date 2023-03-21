@@ -22,7 +22,7 @@ int main() {
 
 ### OUTPUT OF THE CODE
 
-#### Sample SInput
+#### Sample Input
 
 > Ocean<br>
 

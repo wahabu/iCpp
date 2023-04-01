@@ -2,11 +2,11 @@
 
 ### PROBLEM
 
-text text text
+You are given an array of doubles of items in a store that have different prices (see template).
 
 #### Task
 
-text text text
+Write a program that takes the "percent off" discount as input and outputs discounted item prices on one line in the same sequence you are given, separated by a space (" ").
 
 ### CODE
 
@@ -36,8 +36,8 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> 25<br>
 
 #### Sample Output
 
-> <br>
+> 375 9.3 70.5 33.75 2.25 60.75 750.675 63.75 67.5 0.75 26.25<br>

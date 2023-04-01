@@ -1,31 +1,43 @@
-# Title
+# Multi-Dimensional Arrays
 
 ### PROBLEM
 
-text text text
+You are given a two-dimensional array with 3 rows and 3 columns -- 9 elements.
 
 #### Task
 
-text text text
+Complete the code to output **C++** .
 
 ### CODE
 
 ```cpp
-#include<iostream>
-using namespace std;
-
 int main() {
 
-    return 0;
+    string arr[3][3] = {
+        {"Python", "JS", "C++"},
+        {"PHP", "SQL", "Java"},
+        {"C#", "Swift", "Kotlin"},
+    };
+    // your code goes here
+    int k, j;
+    for(k=0; k < 3; k++) {
+    	for(j=0; j < 3; j++){
+    		//cout << arr[k][j] << " ";
+    		if (k==0 && j==2) {
+    			cout << arr[k][j];
+    		}
+    	}
     }
+    return 0;
+}
 ```
 
 ### OUTPUT OF THE CODE
 
 #### Sample SInput
 
-> <br>
+> No Input<br>
 
 #### Sample Output
 
-> <br>
+> C++<br>

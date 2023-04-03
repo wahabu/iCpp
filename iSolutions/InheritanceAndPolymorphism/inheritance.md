@@ -2,11 +2,11 @@
 
 ### PROBLEM
 
-text text text
+You are making a drawing application. The code you are given declares a Shape base class, and you are making separate classes for each shape that your application is going to support.
 
 #### Task
 
-text text text
+Inherit the Rectangle class from the Shape class and call its draw() method.
 
 ### CODE
 
@@ -44,8 +44,10 @@ int main() {
 
 #### Sample SInput
 
-> <br>
+> 4<br>
+> 12<br>
 
 #### Sample Output
 
-> <br>
+> 4x12<br>
+> Drawing...<br>

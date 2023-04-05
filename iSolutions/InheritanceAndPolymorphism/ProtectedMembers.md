@@ -13,30 +13,34 @@ text text text
 ```cpp
 class Product
 {
-    private:
-        double price;
-        int weight;
-    public:
-        void info() {
-            cout <<price<<", "<<weight;
-        }
+protected:
+  double price;
+  int weight;
+
+public:
+  void info()
+  {
+    cout << price << ", " << weight;
+  }
 };
 
-class Fruit: private Product
+class Fruit : public Product
 {
-    public:
-        string type;
-        void setInfo(double p, int w) {
-            price = p;
-            weight = w;
-        }
+public:
+  string type;
+  void setInfo(double p, int w)
+  {
+    price = p;
+    weight = w;
+  }
 };
 
-int main() {
-    Fruit obj;
-    obj.type = "Apple";
-    obj.setInfo(4.99, 10);
-    obj.info();
+int main()
+{
+  Fruit obj;
+  obj.type = "Apple";
+  obj.setInfo(4.99, 10);
+  obj.info();
 }
 ```
 

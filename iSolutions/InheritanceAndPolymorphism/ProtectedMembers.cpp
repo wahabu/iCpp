@@ -3,7 +3,7 @@ using namespace std;
 
 class Product
 {
-private:
+protected:
   double price;
   int weight;
 
@@ -14,7 +14,7 @@ public:
   }
 };
 
-class Fruit : private Product
+class Fruit : public Product
 {
 public:
   string type;

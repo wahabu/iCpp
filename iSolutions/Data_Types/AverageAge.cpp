@@ -14,7 +14,6 @@ int main()
   {
     // cout << *p << endl;
     p++;
-
     *p += ages[i];
   }
 

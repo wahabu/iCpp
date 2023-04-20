@@ -9,6 +9,7 @@ void hello()
 
 int main()
 {
+  // Call a function
   hello();
 
   return 0;

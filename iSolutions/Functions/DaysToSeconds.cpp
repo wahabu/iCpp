@@ -14,5 +14,6 @@ int main()
 
   int seconds = toSeconds(days);
   cout << seconds;
-  6
+
+  return 0;
 }

@@ -1,15 +1,20 @@
 #include <iostream>
 using namespace std;
 
-// Define toSeconds() function here
-int toSeconds(int days) {
-  return days * 24 * 60 * 60;
-}
+class Bird {
+  //complete the class, add makeSound() method
+  public:
+    void makeSound() {
+      cout << "chirp-chif" << endl;
+    }
+};
 
 int main() {
-  int days;
-  cin >> days;
+  //instantaition
+  Bird bird;
 
-  int seconds = toSeconds(days);
-  cout << seconds;
+  //function call
+  bird.makeSound();
+
+  return 0;
 }

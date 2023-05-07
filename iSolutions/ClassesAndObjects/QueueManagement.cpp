@@ -45,6 +45,10 @@ public:
 
   void add(int x)
   {
+    cout << x;
+    size++;
+    print();
+    cout << endl;
   }
 };
 

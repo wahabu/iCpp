@@ -45,10 +45,16 @@ public:
 
   void add(int x)
   {
-    cout << x;
-    size++;
-    print();
-    cout << endl;
+    if (size < 100)
+    {
+      queue[size] = x;
+      size += 1;
+    }
+    else
+    {
+      cout << "Queue is full" << endl;
+      return;
+    }
   }
 };
 

@@ -19,8 +19,7 @@ int main()
 {
   // your code goes here
   int h, w;
-  cin >> h;
-  cin >> w;
-  TV o(h, w);
-  o.area();
+  cin >> h >> w;
+  TV obj(h, w);
+  obj.area();
 }
